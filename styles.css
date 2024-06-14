@@ -1,0 +1,8 @@
+body{
+    min-width: 600px;
+    height: 700px;
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+    background-color: #fef6e4; /* Нежно-кремовый фон */
+    margin: 0;
+    padding: 0;
+}

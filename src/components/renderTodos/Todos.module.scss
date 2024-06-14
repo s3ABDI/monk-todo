@@ -1,0 +1,12 @@
+.Todos{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    transition: all 0.5s;
+}
+.Liner{
+    margin: 20px 0;
+    width: 107%;
+    height: 1px;
+    background: #00000080;
+}

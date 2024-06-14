@@ -1,0 +1,64 @@
+.TodoItem{
+    background-color: rgba(255, 255, 255, 0.164); /* Прозрачный белый фон */
+    border-radius: 10px; /* Закругленные углы */
+    box-shadow: 0 0 10px rgba(158, 158, 158, 0.089); /* Матовая тень */
+    padding: 20px; /* Внутренние отступы */
+    width: 500px; /* Ширина блока */
+    display: flex;
+    text-align: center; 
+    position: relative;
+    gap: 10px;
+    transition: all 0.6s;
+    color: gray;
+    .unChecked{
+        margin: 0;
+        font-size: 20px;
+        transition:all 0.5s;
+    }
+    .checked{
+        margin: 0;
+        font-size: 20px;
+        text-decoration: line-through;
+        transition:all 0.5s;
+    }
+    input{
+        width: 30px;
+    }
+}
+
+.TodoItemUn{
+    background-color: rgba(255, 255, 255, 0.616); /* Прозрачный белый фон */
+    border-radius: 10px; /* Закругленные углы */
+    box-shadow: 0 0 10px rgba(158, 158, 158, 0.089); /* Матовая тень */
+    padding: 20px; /* Внутренние отступы */
+    width: 500px; /* Ширина блока */
+    display: flex;
+    text-align: center; 
+    position: relative;
+    gap: 10px;
+    transition: all 0.6s;
+    .unChecked{
+        margin: 0;
+        font-size: 20px;
+        transition:all 0.5s;
+    }
+    .checked{
+        margin: 0;
+        font-size: 20px;
+        text-decoration: line-through;
+        transition:all 0.5s;
+    }
+    input{
+        width: 30px;
+    }
+}
+
+.time{
+    position: absolute;;
+    right: 10px;
+}
+.Content{
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+}

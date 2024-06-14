@@ -1,0 +1,9 @@
+.Main{
+    padding: 20px; /* Внутренние отступы */
+    width: 500px; /* Ширина блока */
+    min-height: 500px;
+    text-align: center; /* Выравнивание текста по центру */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
